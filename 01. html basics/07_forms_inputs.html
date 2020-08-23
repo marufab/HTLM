@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form & input</title>
+
+</head>
+<body>
+  <!--name-->
+   <form action=" x ">
+     <div>
+       <label for="name">Name</label><br>
+       <input type="text" id="name" name="name" value="maruf">
+     </div>
+     <!-- emial -->
+     <div>
+       <label for="email">Email</label><br>
+       <input type="email" id="email" name="email" placeholder="exmaple@gmail.com">  
+     </div> 
+
+     <!--for adding message with big place-->
+
+     <div>
+       <label for="message">Message</label><br>
+       <textarea name="message" id="message" cols="50" rows=" 10"></textarea> <br>
+     </div>
+     <!--option selection-->
+
+     <div>
+
+
+      <label for="sex">Sex</label>
+      <select name="sex" id="sex">
+      <option value="male">Male</option>
+      <option value="female" selected>Female</option>  <!--for default selct "selected"-->
+      </select> 
+
+     </div>
+
+     <!-- number -->
+
+     <div>
+       <label for="age">Age</label><br>
+       <input type="number" id="age" name="age">
+       
+        
+     </div>
+
+
+     <div>
+       <label for="birthdate">Birthdate</label><br>
+       <input type="date" name="birthdate" id="birthdate">
+     </div>
+     <!-- radio -->
+     <div>
+       <label for="membership">Membership</label>
+       <input type="radio" name="membership" value="simple" id="membership">simple
+       <input type="radio" name="membership" value="standard" id="membership" checked>standard <!--for default selct-->
+       <input type="radio" name="membership" value="supper" id="membership">supper
+       <input type="radio" name="membership" value="none" id="membership">none
+     </div>
+     <!-- cheackbox -->
+
+     <div>
+       <label for="like">MY hobby </label>
+       <input type="checkbox" name="like" value="football" id="like">Football
+       <input type="checkbox "name="like" value="cycling" id="like" >cycling <!--for default selct-->
+       <input type="checkbox"name="like" value="bike" id="like">Bike
+       <input type="checkbox"name="like" value="none" id="membership">none
+     </div>
+     <!-- submit & reset -->
+     <input type="submit" value="submit">
+     <input type="reset" value="reset">
+
+   </form>  
+</body>
+</html> 
